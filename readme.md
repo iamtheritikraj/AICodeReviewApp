@@ -22,12 +22,12 @@
 <ul>Maven: Build and dependency management tool.</ul>
 
 <h3>Usage</h3>
-<ul>Log in with GitHub: Navigate to the /login endpoint, which redirects to GitHub for authentication. Once authenticated, you'll be redirected back to the app with a GitHub access token.<ul>
+<ul>Log in with GitHub: Navigate to the /login endpoint, which redirects to GitHub for authentication. Once authenticated, you'll be redirected back to the app with a GitHub access token.</ul>
 
-<ul>Fetch Repositories: Use the /repos endpoint to list all repositories associated with the authenticated user.<ul>
+<ul>Fetch Repositories: Use the /repos endpoint to list all repositories associated with the authenticated user.</ul>
 
-<ul>Select a File to Review: Choose a repository and a file to review. Use the /repos/{owner}/{repo}/contents/{path} endpoint to fetch the file content.<ul>
+<ul>Select a File to Review: Choose a repository and a file to review. Use the /repos/{owner}/{repo}/contents/{path} endpoint to fetch the file content.</ul>
 
-<ul>Send for Review: Send the file content to the AI model using the /code_review endpoint. The AI will analyze the code and provide feedback.<ul>
+<ul>Send for Review: Send the file content to the AI model using the /code_review endpoint. The AI will analyze the code and provide feedback.</ul>
 
-<ul>View Results: The AI's review will be returned and displayed to the user, offering insights and suggestions.<ul>
+<ul>View Results: The AI's review will be returned and displayed to the user, offering insights and suggestions.</ul>
