@@ -14,20 +14,20 @@
 <br>
 <h3>Technologies Used</h3>
 <ul>
-<ul>Java: The primary programming language used for building the backend.</ul>
-<ul>Spring Boot: Framework for building the RESTful API and handling dependencies.</ul>
-<ul>OAuth 2.0: For secure authentication with GitHub.</ul>
-<ul>GitHub API: To interact with GitHub repositories and fetch file contents.</ul>
-<ul>AI Models: Integration with AI models like ChatGPT for code review.</ul>
-<ul>Maven: Build and dependency management tool.</ul>
+<li>Java: The primary programming language used for building the backend.</li>
+<li>Spring Boot: Framework for building the RESTful API and handling dependencies.</li>
+<li>OAuth 2.0: For secure authentication with GitHub.</li>
+<li>GitHub API: To interact with GitHub repositories and fetch file contents.</li>
+<li>AI Models: Integration with AI models like ChatGPT for code review.</li>
+<li>Maven: Build and dependency management tool.</li>
 
 <h3>Usage</h3>
-<ul>Log in with GitHub: Navigate to the /login endpoint, which redirects to GitHub for authentication. Once authenticated, you'll be redirected back to the app with a GitHub access token.</ul>
+<li>Log in with GitHub: Navigate to the /login endpoint, which redirects to GitHub for authentication. Once authenticated, you'll be redirected back to the app with a GitHub access token.</li>
 
-<ul>Fetch Repositories: Use the /repos endpoint to list all repositories associated with the authenticated user.</ul>
+<li>Fetch Repositories: Use the /repos endpoint to list all repositories associated with the authenticated user.</li>
 
-<ul>Select a File to Review: Choose a repository and a file to review. Use the /repos/{owner}/{repo}/contents/{path} endpoint to fetch the file content.</ul>
+<li>Select a File to Review: Choose a repository and a file to review. Use the /repos/{owner}/{repo}/contents/{path} endpoint to fetch the file content.</li>
 
-<ul>Send for Review: Send the file content to the AI model using the /code_review endpoint. The AI will analyze the code and provide feedback.</ul>
+<li>Send for Review: Send the file content to the AI model using the /code_review endpoint. The AI will analyze the code and provide feedback.</li>
 
-<ul>View Results: The AI's review will be returned and displayed to the user, offering insights and suggestions.</ul>
+<li>View Results: The AI's review will be returned and displayed to the user, offering insights and suggestions.</li>
