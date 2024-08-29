@@ -1,7 +1,5 @@
 <h1>AI Code Review App</h1>
 <p>The AI Code Review App is a backend service built using Java that allows users to log in via GitHub OAuth, retrieve their repositories, and review code files using AI models like ChatGPT or Claude. The application leverages GitHub's API to fetch repository information and file contents, which are then analyzed by AI models for code review. The results of the review are presented to the user in a concise and informative manner.</p>
-<br>
-<br>
 <h3>Features</h3>
 <ul>
 <li>GitHub OAuth Login: Secure authentication using GitHub OAuth, allowing users to log in using their GitHub credentials.</li>
@@ -10,8 +8,6 @@
 <li>AI Code Review: Send code files to ChatGPT for automated code review and analysis.</li>
 <li>Results Display: Display AI-generated review feedback to the user.</li>
 </ul>
-<br>
-<br>
 <h3>Technologies Used</h3>
 <ul>
 <li>Java: The primary programming language used for building the backend.</li>
